@@ -1,0 +1,5 @@
+# .gitignore 내용 (복사해서 쓰세요)
+node_modules
+dist
+.env
+.DS_Store
