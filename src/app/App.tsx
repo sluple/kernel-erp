@@ -46,7 +46,6 @@ export default function App() {
         console.error('데이터 불러오기 실패:', error);
       } else {
         console.log('🔎 진짜 들어온 데이터:', data);
-        
         const formattedData = data.map((t: any) => {
           const safeAmount = Number(t.amount) || 0;
           let safeType: 'income' | 'expense' = 'expense';
